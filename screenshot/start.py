@@ -6,6 +6,6 @@ options.chrome_executable_path="chromedriver.exe"
 
 driver=webdriver.Chrome(options=options)
 driver.maximize_window()
-driver.get("https://www.boris.idv.tw/")
+driver.get("https://ani.gamer.com.tw/")
 driver.save_screenshot("screenshot.png")
 driver.close()
