@@ -24,7 +24,7 @@ pip install selenium
 `cd`進入資料夾後，運行
 
 ```bash
-python start.py  
+python start_fetch_animes.py
 ```
 
 
