@@ -3,12 +3,10 @@
 
 ## 環境
 * Python 3.11.4
-* Selenium 4.10.0
 * Chromedriver 114.0.5735.110
 
 ## 安裝
-* 驅動必須對應瀏覽器版本
-* 版本不合需安裝對應驅動[chromedriver](https://chromedriver.chromium.org/downloads)
+* 驅動須對應瀏覽器版本[chromedriver](https://chromedriver.chromium.org/downloads)
 
 ### 取得
 
