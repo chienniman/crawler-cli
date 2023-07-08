@@ -1,5 +1,4 @@
-# web-crawer-selenium-cli
-網頁自動爬蟲工具
+# crawler-cli
 
 ## 環境
 * Python 3.11.4
