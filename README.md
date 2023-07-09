@@ -1,37 +1,30 @@
 # crawler-cli
 
-## 環境
+By using this simple CLI, you can easily fetch the latest anime from Bahamut and save it as a text file.
+
+## Prerequisites
 * Python 3.11.4
 * Chromedriver 114.0.5735.110
 
-## 安裝
-* 驅動須對應瀏覽器版本[chromedriver](https://chromedriver.chromium.org/downloads)
-
-### 取得
+### Installation
 
 ```bash
-git clone https://github.com/chienniman/web-crawer-selenium.git
+git clone https://github.com/chienniman/crawler-cli.git
 ```
 
-### 根目錄安裝
+### Install packages
 
 ```bash
-pip install selenium
+pip install -r requirement.txt
 ```
 
-### 運行功能
-`cd`進入資料夾後，運行
+### Usage
 
 ```bash
 python start_fetch_animes.py
 ```
 
-
-## latest_anime 
-
-抓取巴哈姆特最新的動漫
-
-### 範例輸出
+### Example output
 ```
 [1]: 魔術士歐菲 流浪之旅 聖域篇
 [2]: 久保同學不放過我
@@ -69,14 +62,14 @@ python start_fetch_animes.py
 [34]: 假面騎士劇場版 Battle Royale
 ```
 
-## screenshot
+## Screenshot
 ![screenshot](https://github.com/chienniman/web-crawer-selenium/assets/97031067/3496b4b1-ab9b-4def-a62a-f7661e6b65e4)
 
-## 注意
-引入套件報錯，檢查
+## Note
+When encountering errors related to importing packages
 
-* 大小寫拼字
-* Python 解釋器版本，vscode最下方一排可手動選擇
+* Check for capitalization and spelling errors.
+* Verify the Python interpreter version. You can manually select the interpreter version at the bottom toolbar in VS Code.
 
 
 
